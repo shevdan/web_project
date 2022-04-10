@@ -3,14 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
-.booking{
-    /* background-image: url(https://re-mm-assets.s3.amazonaws.com/product_photo/46460/large_large_Poly_LightBlue_pms291up_1471509902.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* background-position-x: right;
-    background-position-y: -100px; */
-    margin: 10px;
-    padding: 100px 0px;
+.destinations-container{
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.destinations-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.dest-h1{
+    font-size: 22px;
+}
+.dest-h2{
+    font-size: 51px;
+}
+.destination{
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px grey;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+}
+.dest-img{
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-bottom: 20px;
+}
+.dest-price{
+    font-size: 25px;
+}
+.dest-name{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.price{
+    margin-left: 140px;
+    margin-right: 30px;
+}
+.arrow-icon{
+    margin-left: 30px;
+    width: 20px;
+    height: 20px;
+}
+.tr-length{
+    margin-left: 200px;
+    margin-right: 30px;
+    font-size: 22px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
 }
 .booking-container{
     display: flex;
