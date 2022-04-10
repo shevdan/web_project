@@ -7,10 +7,47 @@
     width: 1536px;
     margin: 0 auto;
 }
-.destinations-container{
+.service-container{
     padding: 100px 100px;
+    align-items: center;
+}
+.service-header{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.service-h1{
+    font-size: 22px;
+}
+.service-h2{
+    font-size: 65px;
+}
+.services-list{
+
+}
+.service-it{
+    width: 290px;
+    padding: 50px;
+    align-items: center;
+}
+.service-icon{
+
+}
+.it-h{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.it-p{
+    text-align: center;
+    width: 150px;
+    font-size: 20px;
+}
+.column-container{
     display: flex;
     flex-direction: column;
+}
+.destinations-container{
+    padding: 100px 100px;
     align-items: center;
 }
 .destinations-header{
@@ -21,14 +58,12 @@
     font-size: 22px;
 }
 .dest-h2{
-    font-size: 51px;
+    font-size: 65px;
 }
 .destination{
     width: 400px;
     border-radius: 25px;
     box-shadow: 10px 5px 5px grey;
-    display: flex;
-    flex-direction: column;
     margin-left: 40px;
     margin-right: 40px;
     padding-bottom: 20px;
@@ -68,7 +103,7 @@
 .booking-container{
     width: 1536px;
     margin: 0px 70px;
-    padding: 20px 20px;
+    padding: 100px 20px;
     align-items: center;
 }
 .booking-icons{
@@ -80,19 +115,16 @@
     width: 620px;
     height: 114px;
     margin: 25px 0px;
-    display: flex;
-    flex-direction: row;
 }
 .info-header{
     width: 440px;
-    height: 222px;
-    margin: 0px 0px 10px;
+    margin-bottom: 30px;
 }
 .info-header1{
     font-size: 22px;
 }
 .info-header2{
-    font-size: 51px;
+    font-size: 65px;
 }
 .step-text-header{
     margin: 0px 0px 10px;
@@ -114,8 +146,6 @@
     border-color: grey;
     border-radius: 25px;
     box-shadow: 10px 5px 5px grey;
-    display: flex;
-    flex-direction: column;
     /* align-items: center; */
 }
 .card-image{
@@ -137,21 +167,12 @@
     margin-bottom: 20px;
 }
 .icons-container{
-    display: flex;
-    flex-direction: row;
     margin: 0px 0px 36px;
 }
 .card-icon{
     width: 40px;
     height: 40px;
     margin-right: 50px;
-}
-.people{
-    display: flex;
-    flex-direction: row;
-}
-.people-p{
-
 }
 .building-icon{
     width: 20px;
@@ -185,10 +206,10 @@
     font-weight: bold;
 }
 .feedback-header{
-    font-size: 48px;
+    font-size: 65px;
     font-family: volkhov;
     color: #14183E;
-    width: 370px;
+    width: 400px;
     margin: 8px 0 0 0;
 }
 .carusel{
@@ -202,7 +223,7 @@
     box-shadow: 10px 5px 5px grey;
     display: flex;
     flex-direction: column;
-    margin-left: 250px;
+    margin-left: 220px;
 }
 .quo{
     font-size: 14px;
