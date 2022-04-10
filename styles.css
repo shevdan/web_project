@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.booking{
+    /* background-image: url(https://re-mm-assets.s3.amazonaws.com/product_photo/46460/large_large_Poly_LightBlue_pms291up_1471509902.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background-position-x: right;
+    background-position-y: -100px; */
+    margin: 10px;
+    padding: 100px 0px;
+}
+.booking-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 70px;
+    padding: 20px 20px;
+    align-items: center;
+}
+.booking-icons{
+    width: 70px;
+    height: 70px;
+    margin: 8px 25px 362px 5px;
+}
+.booking-step{
+    width: 620px;
+    height: 114px;
+    margin: 25px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.info-header{
+    width: 440px;
+    height: 222px;
+    margin: 0px 0px 10px;
+}
+.info-header1{
+    font-size: 22px;
+}
+.info-header2{
+    font-size: 51px;
+}
+.step-text-header{
+    margin: 0px 0px 10px;
+}
+.step-text-p{
+    margin: 0px 0px 20px;
+}
+.center-card{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.card{
+    width: 360px;
+    height: 460px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px grey;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.card-image{
+    width: 320px;
+    height: 160px;
+    margin: 10px 0px 36px;
+    border-radius: 30px;
+}
+.card-h-text{
+    width: 321px;
+    height: 27px;
+    font-size: 23px;
+    margin: 0px 0px 10px;
+}
+.card-p-text{
+    width: 321px;
+    height: 27px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.icons-container{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 36px;
+}
+.card-icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+}
+.people{
+    display: flex;
+    flex-direction: row;
+}
+.people-p{
+
+}
+.building-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.heart-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 110px;
+}
