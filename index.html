@@ -4,55 +4,82 @@
     <meta charset="utf-8">
     <title>BYABUM Travel Page</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+          background-image: url('assets/img/hero/hero-bg.svg');
+          background-repeat: no-repeat;
+          position: absolute;
+            width: 100%;
+            min-height: 100%;
+            top: 0;
+            left: 0;
+        }
+    </style>
+
 </head>
 
 <body class="body">
     <!-- Upper row with logo and links -->
-    <header>
-        <div>
-            <img src="https://technext.github.io/jadoo/v1.0.0/assets/img/logo.svg" alt="Logo">
+    <header class="header">
+        <!-- <div id="bg-img"></div> -->
+
+        <img src="assets/img/logo.svg" alt="logo" class="logo">
+        <nav>
             <ul>
-                <li>
+                <li id="nav">
                     <a href="">Destinations</a>
                 </li>
-                <li>
+                <li id="nav">
                     <a href="">Hotels</a>
                 </li>
-                <li>
+                <li id="nav">
                     <a href="">Flights</a>
                 </li>
-                <li>
+                <li id="nav">
                     <a href="">Bookings</a>
                 </li>
-                <li>
+                <li id="nav">
                     <a href="">Login</a>
                 </li>
+                <a href="">
+                    <li id="nav" class="sign-up" role="button">Sign up</li>
+                </a>
+                <li id="nav">
+                    <select name="EN" class="lang">
+                        <option value="EN">English</option>
+                        <option value="Ukrainian">Ukrainian</option>
+                        <option value="BR">Bri`ish</option>
+                        <option value="FR">French</option>
+                    </select>
+                </li>
             </ul>
-            <button type="button">Sign up</button>
-            <select name="EN" id="Language">
-                <option value="EN">English</option>
-              <option value="Ukrainian">Ukrainian</option>
-              <option value="BR">Bri`ish</option>
-              <option value="FR">French</option>
-            </select>
-        </div>
+        </nav>
+        
+
     </header>
     <!-- block with moto and image next to each other -->
-    
-    <div>
-        <div>
-            <h3>Sub Moto</h3>
-            <h1>MOTO</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque assumenda veritatis eos quaerat ut neque sapiente aspernatur quo totam deleniti, quae dolorem consectetur! Magni ducimus ex vero, nulla unde sint.</p>
-            <button onclick="">Find out more</button>
-            <button type="button">Play demo</button>
-            <a>Play demo</a>
-        </div>
-        <div>
-            <img src="https://technext.github.io/jadoo/v1.0.0/assets/img/hero/hero-img.png" width="300" height="250" alt="girl sitting on suitcase">
-        </div>
-    </div>
 
+    <section id="intro" class="desc">
+        <div>
+            <h2 class="tag">Best Destinations around the world</h2>
+            <h1 class="heading">Travel, enjoy and live a new and full life</h1>
+            <p class="description fw-medium">Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it
+                engrossed listening. Park gate sell they west hard for the.</p>
+            <div class="text-center text-md-start btns"> 
+                <a href=""><button class="find-out-more">Find out more</button></a>
+                <a href="" role="button">
+                    <span class="btn-danger round-btn-lg rounded-circle me-3 play-btn"> 
+                        <img src="assets/img/hero/play.svg" width="15" alt="">
+                    </span>
+                </a>
+                <span class="fw-medium play">Play Demo</span>
+            </div>
+            
+        </div id="img-intro">
+            <img src="./assets/img/hero/hero-img.png" alt="">
+        </div>
+
+    </section>
 
     <section id="service">
         <div class="service-container column-container">
@@ -252,6 +279,7 @@
         </div>
         
     </section>
+    
     
     <div>
         <div>
